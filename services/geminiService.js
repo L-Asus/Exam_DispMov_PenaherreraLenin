@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import * as FileSystem from "expo-file-system";
 import * as DocumentPicker from "expo-document-picker";
 
-const API_KEY = "AIzaSyCpl667dZHlD-HUHl2mCf03as1213UKssI";
+const API_KEY = "";
 
 export const fetchGeminiResponse = async (question, file) => {
     try {
